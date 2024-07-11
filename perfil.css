@@ -1,0 +1,75 @@
+a{
+  text-decoration: none;
+}
+body {
+    background-image: linear-gradient(dodgerblue, SpringGreen);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.row {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.card-exercicio {
+ border-radius: 7px;
+box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+background-color: GhostWhite;
+  padding: 30px;
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+  transition: all 0.3s ease-out;
+}
+
+.card-videos{
+ border-radius: 7px;
+box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+background-color: GhostWhite;
+  padding: 30px;
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+  transition: all 0.3s ease-out;
+}
+
+.card-boletim{
+ border-radius: 7px;
+box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+background-color: GhostWhite;
+  padding: 30px;
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+  transition: all 0.3s ease-out;
+}
+
+.card-perfil {
+  border-radius: 7px;
+box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+background-color: GhostWhite;
+  padding: 30px;
+  margin: 20px;
+  height: 500px;
+  width: 400px;
+  transition: all 0.3s ease-out;
+position: relative;
+}
+
+input {
+background-color: orange;
+margin: 0;
+}
+img {
+float: center;
+}
+
+h2 {
+  color: orange;
+}
